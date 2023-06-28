@@ -1,0 +1,995 @@
+/*
+=======================================================================
+                        media Query
+=======================================================================
+*/
+
+@media screen and (min-width: 1600px) and (max-width: 1799px) {}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  html {
+    font-size: 9px;
+  }
+
+  /* Newarrival page */
+  .collection_imges {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  html {
+    font-size: 9px;
+  }
+
+  .containerX {
+    margin: 0 8rem;
+  }
+
+  .Section_mt {
+    margin-top: 5rem;
+  }
+
+  .Saree_types_txt {
+    font-size: 2rem;
+  }
+
+  .Heading_Txt h1 {
+    font-size: 4rem;
+  }
+
+  .Heading_Txt img {
+    top: 25px;
+  }
+
+  .offers_Content p {
+    font-size: 2.6rem;
+  }
+
+  .Offer_section {
+    grid-gap: 3rem;
+  }
+
+  .Wedding_Office_items {
+    height: 400px;
+  }
+
+  .Sarees_Types {
+    grid-gap: 40px;
+  }
+
+  .Products_types_txt {
+    font-size: 2rem;
+  }
+
+  .Products_price_txt {
+    font-size: 2rem;
+  }
+
+  .Products_Types {
+    grid-gap: 40px;
+  }
+
+  .heart_icon {
+    width: 28px;
+    height: 28px;
+    top: 7px;
+    right: 7px;
+  }
+
+  .heart_icon svg {
+    height: 18px;
+    width: 18px;
+  }
+
+  .free_shipping-Section {
+    grid-gap: 40px;
+  }
+
+  .free_shipping_items svg {
+    width: 90px;
+    height: 90px;
+  }
+
+  .Free_Shipping_txt {
+    font-size: 2rem;
+  }
+
+  .Footer_Section_content {
+    padding: 50px 70px;
+    grid-gap: 20px;
+  }
+
+  /* Newarrival page */
+  .collection_imges {
+    height: 240px;
+  }
+
+  .sorter_dropdown button {
+    height: 34px;
+
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 8px;
+  }
+
+  .containerX {
+    margin: 0 6rem;
+  }
+
+  .country_dropdown button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .Section_mt {
+    margin-top: 4rem;
+  }
+
+  .Heading_Txt h1 {
+    font-size: 3rem;
+  }
+
+  .Saree_types_txt {
+    font-size: 2rem;
+  }
+
+  .Heading_Txt img {
+    width: 60px;
+    top: 10px;
+  }
+
+  .Sarees_Types {
+    grid-gap: 40px;
+    margin-top: 3rem;
+  }
+
+  .offers_Content p {
+    font-size: 2.6rem;
+  }
+
+  .Offer_section {
+    grid-gap: 3rem;
+  }
+
+  .Wedding_Office_items {
+    height: 300px;
+  }
+
+  .Products_types_txt {
+    font-size: 2rem;
+    margin: 0.7rem 0;
+  }
+
+  .Products_price_txt {
+    font-size: 2rem;
+  }
+
+  .Products_Types {
+    grid-gap: 40px;
+  }
+
+  .heart_icon {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    right: 4px;
+  }
+
+  .heart_icon svg {
+    height: 16px;
+    width: 16px;
+  }
+
+  .free_shipping-Section {
+    grid-gap: 30px;
+  }
+
+  .free_shipping_items svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Free_Shipping_txt {
+    font-size: 2rem;
+  }
+
+  .Customer_Reviews_Slider .item {
+    padding: 30px;
+  }
+
+  .Customer_Reviews_Section {
+    height: 650px;
+    margin-top: 3rem;
+  }
+
+  .Footer_Section_content {
+    padding: 40px 30px;
+    grid-gap: 15px;
+  }
+
+  .Subscribe_btn {
+    width: 90px;
+    height: 35px;
+  }
+
+  .social_media_icon li a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social_media_icon li svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Newarrival page */
+
+  .collection_imges {
+    height: 200px;
+  }
+
+  .saree_collection_section {
+    grid-gap: 15px;
+  }
+
+  .FIlters_txt {
+    padding-bottom: 17px;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+
+
+  .navigation {
+    padding: 1rem 0;
+  }
+
+  .top-navigation {
+    padding: 0 4rem;
+  }
+
+  .header-icon .select-cuntry {
+    font-size: 12px;
+  }
+
+  .bottom-navigation {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: -350px;
+    height: 100vh;
+    padding: 20px 0;
+    font-size: 14px;
+    background-color: var(--color-primary);
+    transition: 0.2s;
+    z-index: 9998;
+  }
+
+  .bottom-navigation.active {
+    left: 0;
+  }
+
+  .humber_menu {
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .bottom-navigation .nav-link {
+    padding: 1rem 20px;
+  }
+
+  .bottom-navigation .nav-link.active::after,
+  .bottom-navigation .nav-link:hover::after {
+    display: none;
+  }
+
+  .bottom-navigation .nav-link.active {
+    background-color: #42516a;
+  }
+
+  .country_dropdown button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav_close {
+    padding: 1rem 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: end;
+    margin-top: -15px;
+    cursor: pointer;
+  }
+
+  .nav_close svg {
+    width: 25px;
+    height: 25px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .containerX {
+    margin: 0 4rem;
+  }
+
+  .Section_mt {
+    margin-top: 3rem;
+  }
+
+  .Heading_Txt h1 {
+    font-size: 3rem;
+  }
+
+  .navigation {
+    min-height: 72px;
+  }
+
+  .Top_Heading_line {
+    font-size: 14px;
+    min-height: 36px;
+  }
+
+  .logo a {
+    font-size: 32px;
+  }
+
+  .top_bar {
+    min-height: 108px;
+  }
+
+  .Saree_types_txt {
+    font-size: 2rem;
+  }
+
+  .Heading_Txt img {
+    width: 60px;
+    top: 10px;
+  }
+
+  .Sarees_Types {
+    grid-gap: 30px;
+    margin-top: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .offers_Content p {
+    font-size: 2.2rem;
+  }
+
+  .Offer_section {
+    grid-gap: 2rem;
+  }
+
+  .Wedding_Office_items {
+    height: 250px;
+  }
+
+  .offers_Content {
+    bottom: 3rem;
+  }
+
+  .offers_Content button {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 16rem;
+    height: 4rem;
+  }
+
+  .Products_Types {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+
+  .heart_icon {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    right: 4px;
+  }
+
+  .heart_icon svg {
+    height: 16px;
+    width: 16px;
+  }
+
+
+  .Products_types_txt {
+    font-size: 2rem;
+    margin: 0.6rem 0;
+  }
+
+  .Products_price_txt {
+    font-size: 2rem;
+  }
+
+
+  .free_shipping-Section {
+    grid-gap: 20px;
+  }
+
+  .free_shipping_items svg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Free_Shipping_txt {
+    font-size: 1.8rem;
+  }
+
+  .Customer_Reviews_Slider .item {
+    padding: 20px;
+  }
+
+  .Customer_Reviews_Section {
+    height: 600px;
+    margin-top: 3rem;
+  }
+
+  .Customer_Name {
+    margin-top: 15px;
+  }
+
+  .Customer_Imges {
+    width: 60px;
+    height: 90px;
+  }
+
+  .Customer_Reviews_Slider.owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+  }
+
+
+  .Footer_Section_content {
+    padding: 30px 40px;
+    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .social_media_icon {
+    width: calc(50% - 10px);
+  }
+
+  .email_Section {
+    width: calc(50% - 10px);
+  }
+
+  .Subscribe_btn {
+    width: 90px;
+    height: 35px;
+  }
+
+  .social_media_icon li a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social_media_icon li svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn-whatsapp-pulse svg {
+    width: 30px;
+  }
+
+  .btn-whatsapp-pulse {
+    padding: 25px;
+  }
+
+  /* Newarrival page */
+
+  .collection_imges {
+    height: 200px;
+  }
+
+  .saree_collection_section {
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .FIlters_txt {
+    padding-bottom: 17px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  html {
+    font-size: 7px;
+  }
+
+  .containerX {
+    margin: 0 3rem;
+  }
+
+  .top_bar {
+    min-height: 86px;
+  }
+
+  .Top_Heading_line {
+    font-size: 12px;
+    min-height: 30px;
+  }
+
+  .logo a {
+    font-size: 28px;
+  }
+
+  .navigation {
+    min-height: 56px;
+  }
+
+  .Section_mt {
+    margin-top: 3rem;
+  }
+
+  .Heading_Txt h1 {
+    font-size: 3rem;
+  }
+
+  .Saree_types_txt {
+    font-size: 2rem;
+  }
+
+  .Heading_Txt img {
+    width: 60px;
+    height: 30px;
+    top: 10px;
+  }
+
+  .Sarees_Types {
+    grid-gap: 20px;
+    margin-top: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .offers_Content p {
+    font-size: 2.2rem;
+  }
+
+  .Wedding_Office_items {
+    height: 200px;
+  }
+
+  .Offer_section {
+    grid-gap: 1rem;
+  }
+
+  .offers_Content {
+    bottom: 3rem;
+  }
+
+  .offers_Content button {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 16rem;
+    height: 4rem;
+  }
+
+  .Products_Types {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .heart_icon {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    right: 4px;
+  }
+
+  .heart_icon svg {
+    height: 16px;
+    width: 16px;
+  }
+
+
+  .Products_types_txt {
+    font-size: 2rem;
+    margin: 0.6rem 0;
+  }
+
+  .Products_price_txt {
+    font-size: 2rem;
+  }
+
+  .free_shipping-Section {
+    grid-gap: 10px;
+  }
+
+  .free_shipping_items svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Free_Shipping_txt {
+    font-size: 1.8rem;
+  }
+
+  .Customer_Reviews_Slider .item {
+    padding: 15px;
+  }
+
+  .Customer_Reviews_Section {
+    height: 500px;
+    margin-top: 3rem;
+  }
+
+  .Customer_Name {
+    margin-top: 15px;
+  }
+
+  .Customer_Imges {
+    width: 50px;
+    height: 70px;
+  }
+
+  .Customer_Reviews_Slider.owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+  }
+
+  .Footer_Section_content {
+    padding: 30px 40px;
+    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .social_media_icon {
+    width: calc(50% - 10px);
+  }
+
+  .email_Section {
+    width: calc(50% - 10px);
+  }
+
+  .Subscribe_btn {
+    width: 90px;
+    height: 35px;
+  }
+
+  .social_media_icon li a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social_media_icon li svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn-whatsapp-pulse svg {
+    width: 30px;
+  }
+
+  .btn-whatsapp-pulse {
+    padding: 25px;
+  }
+
+  /* Newarrival page */
+  .collection_imges {
+    height: 200px;
+  }
+
+  .saree_collection_section {
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .sorter_dropdown button {
+    height: 30px;
+  }
+
+  .FIlters_txt {
+    padding-bottom: 15px;
+  }
+
+}
+
+@media screen and (max-width:575px) {
+  .bottom-navigation {
+    width: 200px;
+  }
+
+  .country_dropdown button {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-icon .icon-item svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .top-navigation {
+    padding: 0 2rem;
+  }
+
+  .top_bar {
+    min-height: 90px;
+  }
+
+  .Top_Heading_line {
+    font-size: 12px;
+    min-height: 36px;
+  }
+
+  .logo a {
+    font-size: 26px;
+  }
+
+  .navigation {
+    min-height: 54px;
+  }
+
+
+  .search_bar {
+    padding: 8px;
+  }
+
+  .logo a {
+    font-size: 3rem;
+  }
+
+  .header-icon {
+    gap: 1rem;
+  }
+
+  .header-icon .select-cuntry {
+    width: 55px;
+  }
+
+  .containerX {
+    margin: 0 2rem;
+  }
+
+  .Section_mt {
+    margin-top: 2rem;
+  }
+
+  .Heading_Txt h1 {
+    font-size: 3rem;
+  }
+
+  .Saree_types_txt {
+    font-size: 2rem;
+  }
+
+  .Heading_Txt img {
+    width: 60px;
+    height: 30px;
+    top: 15px;
+  }
+
+  .Sarees_Types {
+    grid-gap: 20px;
+    margin-top: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offers_Content p {
+    font-size: 2.2rem;
+  }
+
+  .Offer_section {
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Wedding_Office_items {
+    height: 250px;
+  }
+
+  .offers_Content {
+    bottom: 3rem;
+  }
+
+  .offers_Content button {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 16rem;
+    height: 4rem;
+  }
+
+  .Products_Types {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .heart_icon {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    right: 4px;
+  }
+
+  .heart_icon svg {
+    height: 16px;
+    width: 16px;
+  }
+
+
+  .Products_types_txt {
+    font-size: 2rem;
+    margin: 0.6rem 0;
+  }
+
+  .Products_price_txt {
+    font-size: 2rem;
+  }
+
+
+  .free_shipping-Section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+
+  .free_shipping_items svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Free_Shipping_txt {
+    font-size: 1.8rem;
+  }
+
+  .Customer_Reviews_Slider .item {
+    padding: 10px;
+  }
+
+  .Customer_Reviews_Section {
+    height: 350px;
+    margin-top: 3rem;
+  }
+
+  .Customer_Name {
+    margin-top: 8px;
+  }
+
+  .Customer_Imges {
+    width: 40px;
+    height: 50px;
+  }
+
+  .Customer_Reviews_Slider.owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+  }
+
+  .Customer_Name_txt {
+    font-size: 1.8rem;
+  }
+
+  .Customer_Reviews_Slider .owl-item.center {
+    transform: scale(0.9);
+  }
+
+  .Customer_Reviews_Slider .owl-dots {
+    bottom: 10px;
+  }
+
+  .Footer_Section_content {
+    padding: 20px;
+    grid-gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Subscribe_btn {
+    width: 90px;
+    height: 35px;
+  }
+
+  .social_media_icon li a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social_media_icon li svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn-whatsapp-pulse svg {
+    width: 30px;
+  }
+
+  .btn-whatsapp-pulse {
+    padding: 25px;
+  }
+
+  /* Newarrival page */
+  .collection_imges {
+    height: 200px;
+  }
+
+  .saree_collection_section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  .saree_collection_txt {
+    margin: 6px 0;
+  }
+
+  .sarre_selact_sections {
+    padding-bottom: 10px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c8c8c8;
+  }
+
+  .saree_txt {
+    text-align: center;
+  }
+
+  .sorter_dropdown {
+    display: inline-block;
+    width: calc(50% - 5px);
+  }
+
+  .Filter_button {
+    width: calc(50% - 5px);
+    background: #c8c8c8;
+    height: 36px;
+    font-size: 2rem;
+    color: var(--color-primary);
+    border: 0;
+  }
+
+  .sorter_dropdown button {
+    min-width: 100%;
+  }
+
+  .FIlters_sections {
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 9999;
+    left: 0;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 0px 15px;
+    border-radius: 10px 10px 0 0;
+    bottom: -100%;
+    transition: 0.3s;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  .FIlters_sections.show {
+    bottom: 0;
+  }
+
+  .FIlters_txt {
+    display: none;
+  }
+
+
+}
